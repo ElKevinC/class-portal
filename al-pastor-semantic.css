@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+body{
+    background-color:rgb(120, 255, 185);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.sr-only{
+    border:0;
+    clip:rect(0,0,0);
+    height: 1px;
+    margin:-1px;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    white-space: nowrap;
+    width:1px;
+
+}
+
+.container{ 
+    margin:auto;
+    max-width: 50px;
+}
+
+h1,h2,h3 {
+    font-family:'Bitcoin Single Ink',serif;
+}
+p{
+    line-height:2em;
+}

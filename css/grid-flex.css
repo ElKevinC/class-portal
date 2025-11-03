@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Momo+Trust+Display&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Momo+Trust+Display&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
 *,
 *:before,
 *:after{
@@ -7,14 +13,14 @@
 }
 body{
     background: rgb(232, 232, 232);
-    font-family:sans-serif;
+    font-family:"Zalando Sans SemiExpanded", sans-serif;
     font-size: 15px;
 }
 
 h1,
 h2,
 h3{
-    font-family: serif;
+    font-family:"Momo Trust Display",serif;
     font-weight: normal;
     padding: .2em 0;
 }
@@ -57,12 +63,12 @@ footer{
     "footy      footy       footy"
 }
 
-header{grid-area:heady;background:rgb(255, 68, 68)}
-nav{grid-area:navvy;background:rgb(255, 218, 68)}
-main{grid-area:mainy;background:rgb(252, 165, 193); max-height:100%;}
-#aside1{grid-area:aside1;background:rgb(87, 255, 68)}
-#aside2{grid-area:aside2;background:rgb(92, 166, 77)}
-footer{grid-area:footy;background:rgb(255, 149, 68)}
+header{grid-area:heady;background:#5C29F0}
+nav{grid-area:navvy;background:#D6D8F4}
+main{grid-area:mainy;background:#9D29F0; max-height:100%;}
+#aside1{grid-area:aside1;background:#29B4F0}
+#aside2{grid-area:aside2;background:#29B4F0}
+footer{grid-area:footy;background:#2936F0}
 
 nav ul{
     display: flex;

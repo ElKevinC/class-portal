@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
   <title>Kevin's Class Portal</title>
@@ -6,7 +6,7 @@
 <body>
     <h1>Kevin's Class Portal</h1>
     <h2>About Who I Am</h2>
-        <p>Its me, Kevin, a major in electrical engineering, raised in Mexico and born in Texas. </p>
+        <p>Its me, Kevin, simple and easy, nothing mushc interesting about me. I grew up in Ciudad Juarez, Chihuahua, Mexico. As you mightve guessed, Spanish is my first languague. I was born in El Paso, Texas, so I am a Chicano. I once wanted to join the military, but whne looking at my options, Engineering sounded better. Other than that, yeah, nothing much.</p>
     <h2>Navigation </h2>
     <ul>
       <li><a href="al-pastor-semantic.html">Al Pastor Project</a></li>
@@ -17,4 +17,82 @@
     </ul>
 </body>
 </html>
-<!-- Trigger rebuild -->
+--><!-- Trigger rebuild -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tables and Forms</title>
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class = "cotainer">
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+        <h1>Kevin's Class Portal</h1>
+    </header>
+
+    <nav id = "DropDown-Navigtion">
+        <h2 class="sr-only">Main Navigation</h2>
+        <ul>
+            
+            <li class="dropdown">
+                <button
+                    type="button"
+                    class="dropdown__title"
+                    aria-expanded="false"
+                    aria-controls="nav-dropdown">
+                    About Me
+                </button>
+                <ul class="dropdown__menu" id="nav-dropdown">
+                    <li><a href="#my-avatar">The Crab</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <button
+                    type="button"
+                    class="dropdown__title"
+                    aria-expanded="false"
+                    aria-controls="nav-dropdown">
+                    My Projects
+                </button>
+                <ul class="dropdown__menu" id="nav-dropdown">
+                    <li><a href="al-pastor-semantic.html">Al Pastor Project</a></li>
+                    <li><a href="semantic-tables-forms.html">Semantic Tables and Forms</a></li>
+                    <li><a href="cssgrid-flexbox.html">Accessible CSS Layout</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <main id="main-content">
+     <!--start of my info-->
+        <section id = "my-avatar">
+          <h2>Instead of my face, you get a crab</h2>
+                    <figure><img src="crab.jpg"width="250px"height="200px"alt="Carne al pastor en trompo">
+                        <figcaption>Danger Crab</figcaption>
+                    </figure>
+          
+        </section>
+    <!--start of table-->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Its me, Kevin, simple and easy, nothing much interesting about me. I grew up in Ciudad Juarez, Chihuahua, Mexico. 
+              As you mightve guessed, Spanish is my first languague. I was born in El Paso, Texas, so I am a Chicano. 
+              I once wanted to join the military, but whne looking at my options, Engineering sounded better. 
+              Other than that, yeah, nothing much. Also, I think Crabs are cool.</p>
+
+        </section>
+
+    </main>
+    <footer><small>&copy; 2025</small></footer>
+    </div>
+</body>
+</html> 

@@ -48,7 +48,7 @@ input:focus{
             text-align: center;
             width:200px;
         }
-        /*following is the long cs file for the dropdown*/
+        /*following is the long cs file for the dropdown AND screen reader*/
         .sr-only {
     border: 0;
     clip: rect(0, 0, 0, 0);
@@ -59,7 +59,7 @@ input:focus{
     position: absolute;
     white-space: nowrap;
     width: 1px;
-}
+    }
 
 .skip-link {
   background: #b30000;

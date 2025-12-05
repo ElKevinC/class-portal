@@ -62,7 +62,7 @@ input:focus{
 }
 
 .skip-link {
-  background: red;
+  background: #b30000;
   color: #fff;
   font-weight: 700;
   padding: 4px;
@@ -283,7 +283,7 @@ footer{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    background: rgb(72, 252, 255);
+    background: rgba(255, 255, 255, 0);
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -292,11 +292,22 @@ footer{
     grid-template-areas:
     "heady      heady       heady"
     "navvy      navvy       navvy"
+    "mainy      mainy       mainy"
+    "footy      footy       footy"
+}
+
+/*Fix to the wrid blue blocks on asides
+    "heady      heady       heady"
+    "navvy      navvy       navvy"
     "aside1     mainy       aside2"
     "aside1     mainy       aside2"
     "aside1     mainy       aside2"
     "footy      footy       footy"
-}
+
+#aside1, #aside2 {
+    background: white;
+} */
+
 
 header{grid-area:heady;background:#5C29F0}
 nav{grid-area:navvy;background:#5C29F0}
@@ -323,7 +334,6 @@ nav ul li{
         "heady heady"
         "navvy navvy"
         "mainy mainy"
-        "aside1 aside2"
         "footy footy";
     }
 }
@@ -335,8 +345,6 @@ nav ul li{
         grid-template-areas:
         "heady"
         "mainy"
-        "aside1"
-        "aside2"
         "navvy"
         "footy";
     }
